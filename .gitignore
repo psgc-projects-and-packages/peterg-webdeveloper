@@ -1,0 +1,8 @@
+node_modules
+.*.swp
+*.swp
+.swp
+rsyncconfig
+*.tgz
+.DS_Store
+*.vim
