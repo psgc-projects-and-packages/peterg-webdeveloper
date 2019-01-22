@@ -188,6 +188,21 @@ include("./_modal.php");
               <div class="subheading mb-3"><a href="http://www.writeevolution.com/">Write Evolution</a></div>
               <p>Designed and built 'collaborative writing' web application, allowing writers and editors to create novels and short stories working together online. Features included a simple chapter 'versioning system' allowing authors to save and retrieve previous versions of a chapter, internal voting system, and built-in notifications and direct messaging capabilities.</p>
 
+              <div class="crate-image row">
+                <div class="embed-responsive embed-responsive-16by9 col-sm-4">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-6rlGsBxaQU" allowfullscreen></iframe> 
+                </div>
+                <div class="col-sm-8 align-self-center"><p>Demo video showing built-in private messaging system</p></div>
+              </div>
+
+              <div class="crate-image row">
+                <div class="embed-responsive embed-responsive-16by9 col-sm-4">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pZqS-sczZgk" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-8 align-self-center"><p>Demo video showing archiving and periodic auto-saving of chapter drafts</p></div>
+              </div>
+
+<!--
                 <ul class="tag-youtube_embeds">
                     <li class="floatLeft"> 
                             <iframe width="300" height="225" src="https://www.youtube.com/embed/-6rlGsBxaQU" frameborder="0" allowfullscreen></iframe> 
@@ -199,6 +214,7 @@ include("./_modal.php");
                     </li>
                     <div class="clearBoth"></div>
                 </ul>
+-->
 
             </div>
             <div class="resume-date text-md-right">

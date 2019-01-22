@@ -74,19 +74,22 @@ img.tag-image_border {
     margin-left: 5%;
     margin-bottom: 0.9rem;
 }
-.crate-image > span {
-    display: inline-block;
-}
-.crate-image > span p {
-    margin-bottom: 0;
+.crate-image p {
+    /*
+    display: inline;
+    vertical-align: middle;
     max-width: 25rem;
+    */
+    margin-bottom: 0;
     font-size: 0.9rem;
     color: #3a3a3a;
 }
-.crate-image > span img {
+.crate-image img {
+    /*
     margin-right: 1rem;
     max-width: 31rem;
     max-height: 31rem;
+    */
 }
 
 .modal-lg {

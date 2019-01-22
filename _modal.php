@@ -1,10 +1,12 @@
 <!-- PARTIAL: _modal.php -->
 
-<div class="crate-image">
-  <span>
-  <img class="img-fluid tag-image_border tag-trigger_modal" src="<?php echo $_mdata['imgUrl'];?>" data-toggle="modal" data-target="#<?php echo $_mdata['target'];?>" alt="<?php echo $_mdata['alt'];?>">
-  </span>
-  <span><p><?php echo $_mdata['desc'];?></p></span>
+<div class="row crate-image">
+  <div class="col-sm">
+    <img class="img-fluid tag-image_border tag-trigger_modal" src="<?php echo $_mdata['imgUrl'];?>" data-toggle="modal" data-target="#<?php echo $_mdata['target'];?>" alt="<?php echo $_mdata['alt'];?>">
+  </div>
+  <div class="col-sm align-self-center">
+    <p class="align-middle"><?php echo $_mdata['desc'];?></p>
+  </div>
 </div>
 
 <!-- Modal -->
