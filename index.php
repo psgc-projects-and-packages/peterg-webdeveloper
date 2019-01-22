@@ -536,7 +536,7 @@ include("./_modal.php");
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+    <script src="js/resume.js"></script>
     <script src="js/utils.js"></script>
 
 <script>
