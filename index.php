@@ -29,7 +29,7 @@
   <body id="page-top">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <a class="d-none d-lg-block navbar-brand js-scroll-trigger" href="#page-top">
           <!--
         <span class="d-block d-lg-none">Professional Web Development</span>
           -->
@@ -69,14 +69,16 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/blog">Blog</a>
           </li>
-<!--
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
--->
         </ul>
       </div>
-      <p id="tag-copyright">Copyright &copy; <?php echo date('Y'); ?> Peter S. Gorgone. All rights reserved.</p>
+      <div class="OFF-d-none OFF-d-md-block">
+          <p class="tag-nav_footer">
+              <script type="text/javascript"> var areacode="424"; var pnumber1="241"; var pnumber2="9327"; document.write('('+areacode+') '+pnumber1+'-'+pnumber2); </script> |
+              <script type="text/javascript"> var name="peter"; var domain="@peltronic.com"; var txtstr=name + domain; document.write(''+txtstr+''); </script>
+          </p>
+          <hr class="d-none d-lg-block" />
+          <p id="tag-copyright" class="tag-nav_footer">Copyright &copy; <?php echo date('Y'); ?> Peter S. Gorgone. All rights reserved.</p>
+      </div>
     </nav>
 
     <div class="container-fluid p-0">
@@ -87,9 +89,6 @@
             <span class="text-primary">Gorgone</span>
           </h1>
           <h3 class="OFF-mb-5">Freelance Web Developer</h3>
-<!--
-          <div class="subheading mb-5">Las Vegas · Los Angeles · Chicago · (424) 241-9327 · <a href="mailto:peter@peltronic.com">peter@peltronic.com</a></div>
--->
           <div class="subheading mb-5">Las Vegas · Los Angeles · Chicago · 
               <script type="text/javascript"> var areacode="424"; var pnumber1="241"; var pnumber2="9327"; document.write('('+areacode+') '+pnumber1+'-'+pnumber2); </script>
               · 
@@ -99,28 +98,7 @@
           </div>
           
           <p class="mb-5"> Professional Custom Web Development for Small Business and Startups</p>
-<!--
-          I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
--->
           <ul class="list-inline list-social-icons mb-0">
-<!--
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
--->
             <li class="list-inline-item">
               <a href="https://www.linkedin.com/in/petergorgone/">
                 <span class="fa-stack fa-lg">

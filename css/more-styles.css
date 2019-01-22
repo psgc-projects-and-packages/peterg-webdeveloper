@@ -65,9 +65,21 @@ img.tag-image_border {
     color: #bd5d38;
 }
 
-#tag-copyright {
+nav .tag-nav_footer {
     color: #fafafa;
     font-size: 0.8rem;
+    margin-bottom: 0;
+}
+nav #tag-copyright {
+}
+nav hr {
+    width: 100%;
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 1em 0;
+    padding: 0; 
 }
 
 .crate-image {
