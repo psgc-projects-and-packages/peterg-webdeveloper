@@ -122,7 +122,7 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
           <h2 class="mb-4">Experience</h2>
-          <p class="mb-4">I have over 20 years experience writing software. As a professional full-stack web developer, I am passionate about building web applications using modern technologies and best practices. The list below highlights a few of the sites I've built for clients.</p>
+          <p class="mb-4">I have over 10 years experience writing software. As a professional full-stack web developer, I am passionate about building web applications using modern technologies and best practices. The list below highlights a few of the sites I've built for clients.</p>
 
           <!-- NewLogix -->
 
@@ -154,7 +154,7 @@ include("./_modal.php");
 
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">March 2016 - Present</span>
+              <span class="text-primary">2016 - Present</span>
             </div>
           </div>
 
@@ -196,7 +196,7 @@ include("./_modal.php");
 
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">October 2015 - March 2016</span>
+              <span class="text-primary">2015 - 2016</span>
             </div>
           </div>
 
@@ -219,7 +219,7 @@ include("./_modal.php");
 ?>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">February 2014 - April 2015</span>
+              <span class="text-primary">2014 - 2015</span>
             </div>
           </div>
 
@@ -254,7 +254,7 @@ include("./_modal.php");
 
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">October 2010 - April 2013</span>
+              <span class="text-primary">2010 - 2013</span>
             </div>
           </div>
 
@@ -266,9 +266,11 @@ include("./_modal.php");
               <div class="subheading mb-3"><a href="#">Various Companies</a></div>
               <p>Before launching my freelance business, I worked as a full-time developer/engineer at several companies including Silicon Graphics, Equator, Pixelworks, Open Interface, and Pavia Systems. Tasks included VLSI design, embedded programming (C, C++), and PHP-based web development.</p>
             </div>
+<!--
             <div class="resume-date text-md-right">
               <span class="text-primary">June 1997 - August 2008</span>
             </div>
+-->
           </div>
 
       </section>
@@ -410,9 +412,6 @@ include("./_modal.php");
               <div class="subheading mb-3">Masters in Electrical Engineering</div>
               <div>Specialized in Image Processing and Embedded Programming</div>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 1993 - June 1997</span>
-            </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row">
@@ -423,9 +422,6 @@ include("./_modal.php");
               </a>
               </h3>
               <div class="subheading mb-3">Bahcelor of Arts in Physics</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 1987 - June 1991</span>
             </div>
           </div>
 
