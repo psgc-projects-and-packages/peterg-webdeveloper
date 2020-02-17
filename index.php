@@ -231,7 +231,7 @@ include("./_modal.php");
               <h3 class="mb-0">Lead Web Developer</h3>
 
               <div class="subheading mb-3"><a href="http://odoe-demo.peterg-webdeveloper.com/videos/year/2011">One Day on Earth Archive</a></div>
-              <p>One Day on Earth was an annual project founded by a Santa Monica-based filmmaker. Starting on October 10, 2010 (10/10/10), thousands of volunteers worldwide shot footage documenting life on that day. The 'archive' lets viewers browse and watch the videos by location, keywords, and categories. I built the archive site implementing features such as keyword-based search, commenting, and user ratings. I also integrated the site with the Vimeo API to support both video playback, ans well as the ability to upload new videos.</p>
+              <p>One Day on Earth was an annual project founded by a Santa Monica-based filmmaker. Starting on October 10, 2010 (10/10/10), thousands of volunteers worldwide shot footage documenting life on that day. The 'archive' lets viewers browse and watch the videos by location, keywords, and categories. I built the archive site implementing features such as keyword-based search, commenting, and user ratings. I also integrated the site with the Vimeo API to support both video playback, as well as the ability to upload new videos.</p>
 
 <?php
 $_mdata = [
