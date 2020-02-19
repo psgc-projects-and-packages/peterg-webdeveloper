@@ -32,13 +32,13 @@
         <section class="section">
             <div class="columns">
                 <div class="column">
-                    <button data-btnnum="1" class="button is-danger">Button 1</button>
+                    <button data-btnnum="1" class="button is-danger">LC Test Flow (1)</button>
                 </div>
                 <div class="column">
                     <button data-btnnum="2" class="button is-light">Button 2</button>
                 </div>
                 <div class="column">
-                    <button data-btnnum="3" class="button is-primary">Button 3</button>
+                    <button data-btnnum="3" class="button is-primary">SWAPI (3)</button>
                 </div>
                 <div class="column">
                     <button data-btnnum="4" class="button is-info">Button 4</button>
@@ -50,6 +50,7 @@
         </section>
 
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="/js/app/main.js"></script>
 
         <script>
             const buttons = document.querySelectorAll('button');
@@ -61,14 +62,23 @@
                     console.log("You clicked:", this.dataset.btnnum);
                     const btnnum = this.dataset.btnnum;
                     switch (btnnum) {
+                        case '1':
+                            console.log('1 - LC form submit...');
+                            results = postLead();
+                            results.then( response => {
+                                console.log('resolved 1', response);
+                                if (response.data) {
+                                }
+                            });
+                            break;
                         case '3':
-                            //console.log('Getting planets...');
-                            planets = getPlanets();
-                            //console.log('called');
-                            planets.then( response => {
-                                console.log('resolved', response);
+                            console.log('3 - Getting planets...');
+                            results = getPlanets();
+                            results.then( response => {
+                                console.log('resolved 3', response);
                                 if (response.data) {
                                     dataLayer.push({
+                                        'event': 'planet-request',
                                         'planet-response': {
                                             'name': response.data.name,
                                             'climate': response.data.climate,
@@ -83,22 +93,6 @@
                 });
             }
 
-            const getPlanets = async () => {
-
-                const url = 'https://swapi.co/api/planets/1';
-                return await axios.get(url)
-                /*
-                axios.get(url)
-                    .then(function (response) {
-                        //console.log(response);
-                        return response;
-                    })
-                    .catch(function (error) {
-                        console.log(error);
-                        // always executed
-                    });
-                    */
-            }
         </script>
 
     </body>
