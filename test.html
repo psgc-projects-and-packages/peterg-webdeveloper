@@ -66,8 +66,14 @@
                             console.log('1 - LC form submit...');
                             results = postLead();
                             results.then( response => {
+                                console.log('resonse status', response.status);
                                 console.log('resolved 1', response);
                                 if (response.data) {
+                                    const { outcome, lead } = response.data;
+                                    dataLayer.push({
+                                        'event': 'lead-conduit-response',
+                                        'response-data': { outcome, lead }
+                                    })
                                 }
                             });
                             break;
