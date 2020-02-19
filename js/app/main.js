@@ -17,7 +17,7 @@ const getPlanets = async () => {
 }
 
 // https://next.leadconduit.com/flows/5e4d6fc19d696a154eb194fa/sources/5e4d6ebc0522c3d92624257d/docs
-const getLeadConduitRequest = (data) => {
+const getLeadConduitRequest = (data={}) => {
     //const lcURL = 'https://app.leadconduit.com/flows/5e4d6fc19d696a154eb194fa/sources/5e4d707cd8510ab5ecf8a137/submit'
     const lcURL = 'https://app.leadconduit.com/flows/5e4d6fc19d696a154eb194fa/sources/5e4d6ebc0522c3d92624257d/submit'
     const payload = {
@@ -44,6 +44,7 @@ const getLeadConduitRequest = (data) => {
 }
 
 const postLead = async () => {
-    const url = getLeadConduitRequest({});
-    return await axios.get(url)
+    const config = getLeadConduitRequest({});
+    console.log('postLead()', config);
+    return await axios(config)
 }
