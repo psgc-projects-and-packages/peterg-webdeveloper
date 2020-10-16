@@ -78,7 +78,7 @@
     <a class="nav-link js-scroll-trigger" href="#about">About</a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" href="/img/2019--PeterGorgone--WebDeveloper--Resume.pdf">Resume</a>
+    <a class="nav-link" href="/img/2020--PeterGorgone--WebDeveloper--Resume.pdf">Resume</a>
     </li>
     <li class="nav-item">
     <a class="nav-link js-scroll-trigger" href="/blog">Blog</a>
@@ -244,7 +244,10 @@ include("./_modal.php");
 
     <h3 class="mb-0">Lead Web Developer</h3>
 
+<!--
     <div class="subheading mb-3"><a href="http://odoe-demo.peterg-webdeveloper.com/videos/year/2011">One Day on Earth Archive</a></div>
+-->
+    <div class="subheading mb-3"><a href="https://www.onedayonearth.org/">One Day on Earth</a></div>
     <p>One Day on Earth was an annual project founded by a Santa Monica-based filmmaker. Starting on October 10, 2010 (10/10/10), thousands of volunteers worldwide shot footage documenting life on that day. The 'archive' lets viewers browse and watch the videos by location, keywords, and categories. I built the archive site implementing features such as keyword-based search, commenting, and user ratings. I also integrated the site with the Vimeo API to support both video playback, as well as the ability to upload new videos.</p>
 
 <?php
@@ -322,7 +325,6 @@ include("./_modal.php");
     -->
     <h3 class="mb-3">Vue.JS "Note Taker" App</h3>
     <p class="mb-0">A Single-Page App that lets the user crate and edit notes. The UI also lets the user select a color for each note. Built with VueJS (no persitent storage)</p>
-    <span><a href="http://notetaker.peterg-webdeveloper.com" target="_blank">Demo</a></span> |
     <span><a href="https://github.com/peltronic/note-taker" target="_blank">Github</a></span>
     </div>
     </div>
@@ -340,38 +342,38 @@ include("./_modal.php");
     <article class="skills-languages">
     <div class="subheading mb-3">Programming Languages &amp; Tools</div>
     <ul class="fa-ul mb-0">
-    <li>
-    <i class="fa-li fa fa-check"></i>
-    Fluency on all levels of the <a class="" href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)" target="_blank">LAMP</a> Stack: Linux/CLI, Apache, MySQL, PHP7
-    </li>
-    <li>
-    <i class="fa-li fa fa-check"></i>
-    Javascript, AJAX/JSON, JQuery, BackboneJS, VueJS, React, Angular
-    </li>
-    <li>
-    <i class="fa-li fa fa-check"></i>
-    MVC Frameworks: Laravel 5.x, Yii 2, Symfony, Codeigniter, Zend
-    </li>
-    <li>
-    <i class="fa-li fa fa-check"></i>
-    Bootstrap, Hand-coding HTML &amp; CSS
-    </li>
-    <li>
-    <i class="fa-li fa fa-check"></i>
-    Cloud Hosting: Amazon Web Services (AWS) EC2 &amp; Load Balancing, Rackspace Cloud, CPanel
-    </li>
-    <li>
-    <i class="fa-li fa fa-check"></i>
-    Version Control: github, mercurial, cvs
-    </li>
-    <li>
-    <i class="fa-li fa fa-check"></i>
-    C (expert), C++ (advanced)
-    </li>
-    <li>
-    <i class="fa-li fa fa-check"></i>
-    OAuth, Web 2.0 APIs (Facebook, Twitter, etc), REST, SSL, PHPUnit
-    </li>
+        <li>
+            <i class="fa-li fa fa-check"></i>
+            MERN-like stacks: NodeJS + Express + NestJS | React | MongoDB | PostgreSQL + Sequelize
+        </li>
+        <li>
+            <i class="fa-li fa fa-check"></i>
+            Fluency on all levels of the <a class="" href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)" target="_blank">LAMP</a> Stack: Laravel + PHP7 | Linux+CLI | Apache | MySQL
+        </li>
+        <li>
+            <i class="fa-li fa fa-check"></i>
+            Javascript/ECMAScript 2017 | Typescript | AJAX/JSON | ReactJS | VueJS | JQuery
+        </li>
+        <li>
+            <i class="fa-li fa fa-check"></i>
+            Bootstrap 4 | HTML 5 | CSS 3
+        </li>
+        <li>
+            <i class="fa-li fa fa-check"></i>
+            Cloud Hosting: Amazon Web Services (AWS) EC2 &amp; Load Balancing, Rackspace Cloud, CPanel
+        </li>
+        <li>
+            <i class="fa-li fa fa-check"></i>
+            Version Control: github, mercurial, cvs
+        </li>
+        <li>
+            <i class="fa-li fa fa-check"></i>
+            C (expert), C++ (advanced)
+        </li>
+        <li>
+            <i class="fa-li fa fa-check"></i>
+            OAuth, Web 2.0 APIs (Facebook, Twitter, etc), REST, SSL, PHPUnit
+        </li>
     </ul>
     </article>
 
