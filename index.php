@@ -87,7 +87,6 @@
     </div>
     <div class="OFF-d-none OFF-d-md-block">
     <p class="tag-nav_footer">
-    <script type="text/javascript"> var areacode="424"; var pnumber1="241"; var pnumber2="9327"; document.write('('+areacode+') '+pnumber1+'-'+pnumber2); </script> |
 <script type="text/javascript"> var name="peter"; var domain="@peltronic.com"; var txtstr=name + domain; document.write(''+txtstr+''); </script>
 </p>
 <hr class="d-none d-lg-block" />
@@ -104,7 +103,6 @@
 </h1>
 <h3 class="OFF-mb-5">Freelance Web Developer</h3>
 <div class="subheading mb-5">Las Vegas · Los Angeles · Chicago · 
-<script type="text/javascript"> var areacode="424"; var pnumber1="241"; var pnumber2="9327"; document.write('('+areacode+') '+pnumber1+'-'+pnumber2); </script>
 · 
 <a href="mailto:peter@peltronic.com" class="tag-clickme_to_email">
 <script type="text/javascript"> var name="peter"; var domain="@peltronic.com"; var txtstr=name + domain; document.write(''+txtstr+''); </script>
@@ -467,7 +465,6 @@ include("./_modal.php");
     <div class="mb-2">
     <p class="mb-1">A: Please shoot me an email or text and we can setup a time to chat about your project!</p>
     <p class="mb-0">
-    <script type="text/javascript"> var areacode="424"; var pnumber1="241"; var pnumber2="9327"; document.write('('+areacode+') '+pnumber1+'-'+pnumber2); </script> |
 <script type="text/javascript"> var name="peter"; var domain="@peltronic.com"; var txtstr=name + domain; document.write(''+txtstr+''); </script>
 </p>
     </div>
