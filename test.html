@@ -9,16 +9,16 @@
 
         <!-- Google Tag Manager: Data Layer -->
         <script>
-            //dataLayer = [];
+dataLayer = [];
         </script>
         <!-- End Google Tag Manager: Data Layer -->
 
         <!-- Google Tag Manager: Base Install -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-WVJPZJ2');</script>
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WVJPZJ2');</script>
         <!-- End Google Tag Manager: Base Install -->
     </head>
 
@@ -49,57 +49,60 @@
             </div>
         </section>
 
-        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
         <script src="/js/app/main.js"></script>
 
-        <script>
-            const buttons = document.querySelectorAll('button');
-            let results;
-            //console.log(buttons);
-            for (let i = 0; i < buttons.length; i++) {
-                //console.log(i, buttons[i]);
-                buttons[i].addEventListener('click', function() {
-                    console.log("You clicked:", this.dataset.btnnum);
-                    const btnnum = this.dataset.btnnum;
-                    switch (btnnum) {
-                        case '1':
-                            console.log('1 - LC form submit...');
-                            results = postLead();
-                            results.then( response => {
-                                console.log('resonse status', response.status);
-                                console.log('resolved 1', response);
-                                if (response.data) {
-                                    const { outcome, lead } = response.data;
-                                    dataLayer.push({
-                                        'event': 'lead-conduit-response',
-                                        'response-data': { outcome, lead }
-                                    })
-                                }
-                            });
-                            break;
-                        case '3':
-                            console.log('3 - Getting planets...');
-                            results = getPlanets();
-                            results.then( response => {
-                                console.log('resolved 3', response);
-                                if (response.data) {
-                                    dataLayer.push({
-                                        'event': 'planet-request',
-                                        'planet-response': {
-                                            'name': response.data.name,
-                                            'climate': response.data.climate,
-                                            'population': response.data.population
-                                        }
-                                    })
-                                }
-                            });
-                            break;
-                        default:
+<script>
+
+const buttons = document.querySelectorAll('button');
+let results;
+
+//console.log(buttons);
+for (let i = 0; i < buttons.length; i++) {
+    //console.log(i, buttons[i]);
+    buttons[i].addEventListener('click', function() {
+        console.log("You clicked:", this.dataset.btnnum);
+        const btnnum = this.dataset.btnnum;
+        switch (btnnum) {
+            case '1':
+                console.log('1 - LC form submit...');
+                results = postLead();
+                results.then( response => {
+                    console.log('resonse status', response.status);
+                    console.log('resolved 1', response);
+                    if (response.data) {
+                        const { outcome, lead } = response.data;
+                        dataLayer.push({
+                            'event': 'lead-conduit-response',
+                            'response-data': { outcome, lead }
+                        })
                     }
                 });
-            }
+                break;
+            case '3':
+                console.log('3 - Getting planets...');
+                results = getPlanets();
+                results.then( response => {
+                    console.log('resolved 3', response);
+                    if (response.data) {
+                        dataLayer.push({
+                            'event': 'planet-request',
+                            'planet-response': {
+                                'name': response.data.name,
+                                'climate': response.data.climate,
+                                'population': response.data.population
+                            }
+                        })
+                    }
+                });
+                break;
+            default:
+        }
+    });
+}
 
-        </script>
+</script>
 
     </body>
 
