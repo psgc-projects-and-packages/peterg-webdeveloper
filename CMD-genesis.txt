@@ -1,3 +1,7 @@
+Based on this theme:
+
+https://startbootstrap.com/theme/resume
+
 %%% Pre-config
 
 [/] rbenv versions
