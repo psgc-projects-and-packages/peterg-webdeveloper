@@ -2,6 +2,10 @@ Based on this theme:
 
 https://startbootstrap.com/theme/resume
 
+%%% Run local
+
+$ php -S localhost:8000
+
 %%% Pre-config
 
 [/] rbenv versions
