@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello PSGC Test!</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+        <!-- Google Tag Manager: Data Layer -->
+        <script>
+dataLayer = [];
+        </script>
+        <!-- End Google Tag Manager: Data Layer -->
+
+        <!-- Google Tag Manager: Base Install -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WVJPZJ2');</script>
+        <!-- End Google Tag Manager: Base Install -->
+    </head>
+
+    <body>
+        <section class="section">
+            <div class="container">
+                <h1 class="title">Test Page</h1>
+                <p class="subtitle">Testing 123</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="columns">
+                <div class="column">
+                    <button data-btnnum="1" class="button is-danger">LC Test Flow (1)</button>
+                </div>
+                <div class="column">
+                    <button data-btnnum="2" class="button is-light">Button 2</button>
+                </div>
+                <div class="column">
+                    <button data-btnnum="3" class="button is-primary">SWAPI (3)</button>
+                </div>
+                <div class="column">
+                    <button data-btnnum="4" class="button is-info">Button 4</button>
+                </div>
+                <div class="column">
+                    <button data-btnnum="5" class="button is-warning">Button 5</button>
+                </div>
+            </div>
+        </section>
+
+        <script src="//cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
+        <script src="/js/app/main.js"></script>
+
+<script>
+
+const buttons = document.querySelectorAll('button');
+let results;
+
+//console.log(buttons);
+for (let i = 0; i < buttons.length; i++) {
+    //console.log(i, buttons[i]);
+    buttons[i].addEventListener('click', function() {
+        console.log("You clicked:", this.dataset.btnnum);
+        const btnnum = this.dataset.btnnum;
+        switch (btnnum) {
+            case '1':
+                console.log('1 - LC form submit...');
+                results = postLead();
+                results.then( response => {
+                    console.log('resonse status', response.status);
+                    console.log('resolved 1', response);
+                    if (response.data) {
+                        const { outcome, lead } = response.data;
+                        dataLayer.push({
+                            'event': 'lead-conduit-response',
+                            'response-data': { outcome, lead }
+                        })
+                    }
+                });
+                break;
+            case '3':
+                console.log('3 - Getting planets...');
+                results = getPlanets();
+                results.then( response => {
+                    console.log('resolved 3', response);
+                    if (response.data) {
+                        dataLayer.push({
+                            'event': 'planet-request',
+                            'planet-response': {
+                                'name': response.data.name,
+                                'climate': response.data.climate,
+                                'population': response.data.population
+                            }
+                        })
+                    }
+                });
+                break;
+            default:
+        }
+    });
+}
+
+</script>
+
+    </body>
+
+</html>

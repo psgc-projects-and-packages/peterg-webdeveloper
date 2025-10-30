@@ -1,0 +1,39 @@
+Based on this theme:
+
+https://startbootstrap.com/theme/resume
+
+%%% Run local
+
+$ php -S localhost:8000
+
+%%% Pre-config
+
+[/] rbenv versions
+
+[/] ruby -v
+
+[/] rvm list
+[/] rvm -v
+[/] rvm get stable
+[/] rvm install 2.7.1
+
+[/] gem -v
+[/] gem update --system
+[/] rvm gemset list
+[/] rvm gemset use global
+[/] gem list
+
+[/] gem update
+
+[/] gem install bundler
+[ ] gem install nokogiri
+[/] gem install rails
+
+%%% Create App
+
+rails new psgcwebdev_server -T --database=postgresql
+
+-T : no tests
+
+%%% Create Database
+[ ] rails s
