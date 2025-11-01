@@ -1,0 +1,19 @@
+/*
+Theme Name: Resume WordPress Theme
+Theme URI: https://hilltopcode.com/
+Author: Peter S. Gorgone
+Author URI: https://hilltopcode.com/
+Description: A WordPress conversion of the Start Bootstrap Resume theme, customized for freelance web developer portfolio and blog.
+Version: 1.0.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Text Domain: resume-wp-theme
+*/
+
+/* 
+ * This file is required by WordPress to identify the theme.
+ * All custom styles are loaded via functions.php from:
+ * - css/resume.min.css
+ * - css/more-styles.css
+ */
+
