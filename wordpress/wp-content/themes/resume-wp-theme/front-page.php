@@ -5,7 +5,11 @@
  * @package Resume_WP_Theme
  */
 
-get_header(); ?>
+get_header(); 
+
+// Start the WordPress loop to access page content
+while (have_posts()) : the_post();
+?>
 
 <section class="resume-section p-3 p-lg-5 d-flex d-column" id="home">
     <div class="my-auto">
@@ -35,6 +39,21 @@ get_header(); ?>
             } else {
                 echo '<p>Professional Custom Web Development for Small Business and Startups</p>';
             }
+            ?>
+        </div>
+
+        <?php 
+        // Display the page content from the block editor (WYSIWYG - primary content)
+        // This ensures what you see in the editor is what appears on the front-end
+        ?>
+        <div class="entry-content mb-5">
+            <?php 
+            the_content();
+            
+            wp_link_pages(array(
+                'before' => '<div class="page-links">' . esc_html__('Pages:', 'resume-wp-theme'),
+                'after'  => '</div>',
+            ));
             ?>
         </div>
         <ul class="list-inline list-social-icons mb-0">
@@ -485,5 +504,8 @@ get_header(); ?>
     </div>
 </section>
 
-<?php get_footer(); ?>
+<?php 
+endwhile; // End the WordPress loop
+get_footer(); 
+?>
 

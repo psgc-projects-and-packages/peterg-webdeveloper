@@ -27,6 +27,11 @@ function resume_wp_theme_setup() {
     // Add theme support for custom logo (optional, for future use)
     add_theme_support('custom-logo');
     
+    // Add block editor support for better WYSIWYG experience
+    add_theme_support('wp-block-styles');
+    add_theme_support('align-wide');
+    add_theme_support('editor-styles');
+    
     // Register navigation menus
     register_nav_menus(array(
         'primary' => __('Primary Menu', 'resume-wp-theme'),
@@ -64,9 +69,9 @@ function resume_wp_theme_scripts() {
     // Main stylesheet
     wp_enqueue_style('resume-wp-theme-style', get_stylesheet_uri(), array('resume-theme-style'), $theme_version);
     
-    // jQuery (WordPress includes it, but we can specify)
-    wp_deregister_script('jquery');
-    wp_enqueue_script('jquery', $theme_uri . '/vendor/jquery/jquery.min.js', array(), '3.6.0', true);
+    // Use WordPress's built-in jQuery (standard practice)
+    // WordPress includes jQuery, so we don't need to deregister and re-register
+    wp_enqueue_script('jquery');
     
     // Bootstrap JS
     wp_enqueue_script('bootstrap', $theme_uri . '/vendor/bootstrap/js/bootstrap.bundle.min.js', array('jquery'), '4.6.0', true);
@@ -138,4 +143,14 @@ function resume_wp_theme_excerpt_more($more) {
     return '...';
 }
 add_filter('excerpt_more', 'resume_wp_theme_excerpt_more');
+
+/**
+ * Helper function to render section templates
+ * 
+ * @param string $template_name Template name (hero, paragraph, resume, bullet-list)
+ * @param array  $args          Arguments to pass to template
+ */
+function resume_wp_theme_render_section($template_name, $args = array()) {
+    get_template_part('template-parts/sections/' . sanitize_file_name($template_name), null, $args);
+}
 
