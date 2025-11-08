@@ -64,8 +64,8 @@ build/
 # Ignore all themes except resume-wp-theme
 /wp-content/themes/*
 /wp-content/plugins/akismet/*
+/wp-content/plugins/*
 
 # Keep: Your theme, plugins, ACF JSON
 !/wp-content/themes/resume-wp-theme/
 !/wp-content/themes/resume-wp-theme/**
-!/wp-content/plugins/advanced-custom-fields/
