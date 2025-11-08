@@ -6,3 +6,4 @@ rsyncconfig
 *.tgz
 .DS_Store
 *.vim
+*.env

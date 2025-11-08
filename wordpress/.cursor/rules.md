@@ -1,5 +1,0 @@
-- This is a WordPress theme: hilltopcode-wp-theme
-- Use Bootstrap 5 + Font Awesome
-- All content is in ACF fields (options page)
-- Never edit core files
-- Use `get_template_part()` for section

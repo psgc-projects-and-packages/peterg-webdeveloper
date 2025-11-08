@@ -1,0 +1,10 @@
+Next Steps
+Copy this folder to wp-content/themes/ in your WordPress installation
+Activate the theme in WordPress admin (Appearance > Themes)
+Set up your blog page:
+Create a page called "Blog"
+Go to Settings > Reading
+Set "Posts page" to your Blog page
+Leave homepage blank to use front-page.php automatically
+The homepage displays your portfolio sections (Experience, Skills, etc.), and the blog functionality is ready. All original assets, styles, and scripts are preserved and properly enqueued.
+The theme is ready for personal use. You can add blog posts through the WordPress admin, and the homepage will continue to display your portfolio sections.
