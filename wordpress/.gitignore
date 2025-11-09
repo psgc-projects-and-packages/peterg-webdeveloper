@@ -1,0 +1,72 @@
+# === WordPress Core ===
+/wp-admin/
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+
+# === Config & Secrets ===
+.env
+/wp-config.php
+/.env
+/.env.local
+/*.sql
+
+# === Uploads (Optional) ===
+# Commit if you want versioned media
+# OR ignore if large / generated
+/wp-content/uploads/*
+
+# === Cache & Logs ===
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
+*.log
+/.htaccess
+
+# === IDE / OS ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Docker ===
+.docker/
+docker-compose.override.yml
+
+# === Node / Build (if using) ===
+node_modules/
+dist/
+build/
+
+*.zip
+*.swp
+*.swo
+.*.swp
+.*.swo
+
+# === Themes ===
+# Ignore all themes except resume-wp-theme
+/wp-content/themes/*
+/wp-content/plugins/akismet/*
+
+# Keep: Your theme, plugins, ACF JSON
+!/wp-content/themes/resume-wp-theme/
+!/wp-content/themes/resume-wp-theme/**
+!/wp-content/plugins/advanced-custom-fields/
+

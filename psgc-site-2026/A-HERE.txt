@@ -1,0 +1,4 @@
+do simple PHP-based 2026 site
+migrate 2024 contents over to 2026
+use WP on SiteGround for blog.hilltopcode.com
+host main site on AWS S3
