@@ -1,8 +1,31 @@
             <!-- Experience-->
             <section class="resume-section" id="experience-3">
                 <div class="resume-section-content">
+
                     <h2 class="mb-5">Experience</h2>
                     <p class="mb-5">I have over 10 years experience writing software. As a professional full-stack web developer, I am passionate about building web applications using modern technologies and best practices. The list below highlights a few of the sites I've built for clients.</p>
+
+                    <!-- Macmillan Learning -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Full-Stack Node/React Developer</h3>
+                            <div class="subheading mb-3"><a href="https://www.macmillanlearning.com/college/us/digital/achieve">Macmillan Learning</a></div>
+                            <p>Contributed to the **Achieve** personalized learning platform, modernizing quiz and assessment modules used by thousands of students. Refactored tightly-coupled backend logic into clean, reusable Node.js libraries with unit tests, improving maintainability and reducing regression risk. Collaborated with cross-functional teams to deliver UI enhancements in React/Redux and optimize MySQL queries for faster response times.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jan 2022 - Sep 2025</span></div>
+                    </div>
+
+                    <!-- JMBM -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Lead Full-Stack Laravel Developer</h3>
+                            <div class="subheading mb-3"><a href="#">JMBM</a></div>
+                            <p>Architected and delivered a full rebuild of the firm’s internal intranet platform, replacing an aging CMS with a modern Laravel-based system. Implemented a dynamic, searchable attorney directory with advanced filtering by practice area and office, and developed a role-based content editor that empowered non-technical staff to manage pages autonomously. Improved internal workflows and reduced maintenance overhead.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jan 2019 - Sep 2019</span></div>
+                    </div>
+
+                    <!-- Newlogix -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                         <h3 class="mb-0">Senior Web Developer/Architect</h3>
@@ -29,16 +52,10 @@
                         ?>
 
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Apr 2016 - Nov 2018</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
-                    </div>
+
+                    <!-- TBD -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Junior Web Designer</h3>
