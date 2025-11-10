@@ -1,12 +1,33 @@
             <!-- Experience-->
-            <section class="resume-section" id="experience">
+            <section class="resume-section" id="experience-3">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
+                    <p class="mb-5">I have over 10 years experience writing software. As a professional full-stack web developer, I am passionate about building web applications using modern technologies and best practices. The list below highlights a few of the sites I've built for clients.</p>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        <h3 class="mb-0">Senior Web Developer/Architect</h3>
+                        <div class="subheading mb-3"><a href="http://www.newlogix.com/">Newlogix Inc.</a></div>
+                        <p>Product architect and lead responsible for end-to-end development of 2 major projects. The first, called <a href="http://www.logixsynergy.com">Synergy</a>, is a project management tool with CMS and CRM-type features customized for utility companies to help them manage schedules, budgets, and other items for the many vendors they work with. The second, called <a href="http://www.civixapp.com">Civix</a> is an online portal for submitting and managing permit or license applications. Bootstraped enginering team and managed developement, testing, and deployment operations.</p>
+                        <?php
+                        $_mdata = [
+                            'imgUrl'=>'/assets/img/portfolio/newlogix/ls-project_list.png',
+                            'desc'=>'Project Dashboard with sorting and search capabilities. Sidebar utilizes charts to analyze project data in meaningful ways.',
+                            'alt'=>'Synergy Project Dashboard',
+                            'title'=>'Project Dashboard',
+                            'target'=>'modal-synergy_project_list',
+                        ];
+                        include("./_modal.php");
+
+                        $_mdata = [
+                            'imgUrl'=>'/assets/img/portfolio/newlogix/ls-fb-template_builder.png',
+                            'desc'=>'The forms used to track project data can be constructed dynamically in an administration area. This page shows building a form from \'components\' (commonly used sub-forms). The user can drag & drop a component from the list on the right into the center area to add it to a form, which will then be available on the site (or possibly a mobile app) for filling out by contractors and engineers in the field.',
+                            'title'=>'Form Builder',
+                            'alt'=>'Form Builder',
+                            'target'=>'modal-synergy_formbuilder',
+                        ];
+                        include("./_modal.php");
+                        ?>
+
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
                     </div>
@@ -36,5 +57,6 @@
                     </div>
                 </div>
             </section>
+
             <hr class="m-0" />
 

@@ -44,9 +44,19 @@
             <?php include 'sections/awards.php'; ?>
         </div>
         <!-- Bootstrap core JS-->
+        <script src="vendor/jquery/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for this template -->
+<!--                        
+        <script src="js/resume.js"></script>
+-->
+        <script src="js/utils.js"></script>
     </body>
 </html>
 
