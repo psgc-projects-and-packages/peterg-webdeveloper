@@ -7,3 +7,6 @@ rsyncconfig
 .DS_Store
 *.vim
 *.env
+hide
+hide/
+hide/*

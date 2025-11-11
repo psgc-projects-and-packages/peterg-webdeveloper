@@ -1,3 +1,6 @@
+<?php
+$email_address = 'peter@peltronic.com';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -25,13 +28,20 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Home</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                 </ul>
+            </div>
+            <div>
+                <p class="tag-nav_footer">
+                  <a href="mailto:<?php echo $email_address; ?>" style="text-decoration: none;"><?php echo $email_address; ?></a>
+                </p>
+                <hr class="d-none d-lg-block" />
+                <p id="tag-copyright" class="tag-nav_footer">Copyright &copy; <?php echo date('Y'); ?> Peter S. Gorgone. All rights reserved.</p>
             </div>
         </nav>
         <!-- Page Content-->
@@ -43,6 +53,12 @@
             <?php include 'sections/interests.php'; ?>
             <?php include 'sections/awards.php'; ?>
         </div>
+
+        <div id="tag-clickme_to_scroll_down">
+            <h3 class="tag-more"><a href="#">Read More</a></h3>
+            <h3 class="tag-top"><a href="#">Back to Top</a></h3>
+        </div>
+
         <!-- Bootstrap core JS-->
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

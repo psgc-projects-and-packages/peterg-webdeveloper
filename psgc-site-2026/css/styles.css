@@ -11090,6 +11090,10 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.subheading a .fa-external-link-alt {
+  margin-left: 0.25rem;
+}
+
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -11192,4 +11196,40 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+#tag-clickme_to_scroll_down {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+}
+#tag-clickme_to_scroll_down h3 {
+  display: none;
+}
+#tag-clickme_to_scroll_down h3 a {
+  color: #52b8dd;
+}
+
+nav .tag-nav_footer,
+nav #tag-copyright {
+  color: #fafafa;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+nav .tag-nav_footer a {
+  color: #fafafa;
+}
+nav #tag-copyright {
+  padding-bottom: 0.5rem;
+}
+nav hr {
+  width: 100%;
+  display: block;
+  height: 3px;
+  border: 0;
+  border-top: 1px solid #fff;
+  margin: 1em 0;
+  padding: 0;
 }

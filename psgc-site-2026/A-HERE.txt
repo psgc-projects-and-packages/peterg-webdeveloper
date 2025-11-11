@@ -1,3 +1,18 @@
+% 20251111
+
+- [ ] revamp jmbm on AWS for screenshots
+https://grok.com/project/93dfdb88-2ba3-44a0-a50c-1aa465be5a75?tab=conversations&chat=59decec9-565a-4056-ba78-423a563cac2e
+$ ssh psgc-aws-3
+
+- [ ] Fill in content in 2026 site
+
+- [ ] Host mainsite on S3
+
+- [ ] Blog on siteground, integrate to main site
+
+- [ ] 
+
+--
 do simple PHP-based 2026 site
 migrate 2024 contents over to 2026
 use WP on SiteGround for blog.hilltopcode.com

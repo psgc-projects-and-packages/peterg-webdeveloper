@@ -7,7 +7,7 @@
                     </h1>
                     <h3 class="OFF-mb-5">Freelance Web Developer</h3>
                     <div class="subheading mb-5">Las Vegas · Los Angeles · Chicago ·
-                        <a href="#" onclick="navigator.clipboard.writeText('peter@peltronic.com'); return false;" style="text-decoration: none; cursor: pointer;">peter@peltronic.com</a>
+                        <a href="mailto:<?php echo $email_address; ?>" style="text-decoration: none;"><?php echo $email_address; ?></a>
                     </div>
                     <p class="mb-5"> Professional Custom Web Development for Small Business and Startups</p>
                     <div class="social-icons">
