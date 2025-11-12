@@ -38,50 +38,80 @@
                     <!-- Newlogix -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                        <h3 class="mb-0">Senior Web Developer/Architect</h3>
-                        <div class="subheading mb-3"><a href="http://www.newlogix.com/">Newlogix Inc. <i class="fa-solid fa-external-link-alt fa-xs"></i></a></div>
-                        <p>Product architect and lead responsible for end-to-end development of 2 major projects. The first, called <a href="http://www.logixsynergy.com">Synergy</a>, is a project management tool with CMS and CRM-type features customized for utility companies to help them manage schedules, budgets, and other items for the many vendors they work with. The second, called <a href="http://www.civixapp.com">Civix</a> is an online portal for submitting and managing permit or license applications. Bootstraped enginering team and managed developement, testing, and deployment operations.</p>
-                        <?php
-                        $_mdata = [
-                            'imgUrl'=>'/assets/img/portfolio/newlogix/ls-project_list.png',
-                            'desc'=>'Project Dashboard with sorting and search capabilities. Sidebar utilizes charts to analyze project data in meaningful ways.',
-                            'alt'=>'Synergy Project Dashboard',
-                            'title'=>'Project Dashboard',
-                            'target'=>'modal-synergy_project_list',
-                        ];
-                        include("./_modal.php");
+                            <h3 class="mb-0">Senior Web Developer/Architect</h3>
+                            <div class="subheading mb-3"><a href="http://www.newlogix.com/">Newlogix Inc. <i class="fa-solid fa-external-link-alt fa-xs"></i></a></div>
+                            <p>Product architect and lead responsible for end-to-end development of 2 major projects. The first, called <a href="http://www.logixsynergy.com">Synergy</a>, is a project management tool with CMS and CRM-type features customized for utility companies to help them manage schedules, budgets, and other items for the many vendors they work with. The second, called <a href="http://www.civixapp.com">Civix</a> is an online portal for submitting and managing permit or license applications. Bootstraped enginering team and managed developement, testing, and deployment operations.</p>
+                            <?php
+                            $_mdata = [
+                                'imgUrl'=>'/assets/img/portfolio/newlogix/ls-project_list.png',
+                                'desc'=>'Project Dashboard with sorting and search capabilities. Sidebar utilizes charts to analyze project data in meaningful ways.',
+                                'alt'=>'Synergy Project Dashboard',
+                                'title'=>'Project Dashboard',
+                                'target'=>'modal-synergy_project_list',
+                            ];
+                            include("./_modal.php");
 
-                        $_mdata = [
-                            'imgUrl'=>'/assets/img/portfolio/newlogix/ls-fb-template_builder.png',
-                            'desc'=>'The forms used to track project data can be constructed dynamically in an administration area. This page shows building a form from \'components\' (commonly used sub-forms). The user can drag & drop a component from the list on the right into the center area to add it to a form, which will then be available on the site (or possibly a mobile app) for filling out by contractors and engineers in the field.',
-                            'title'=>'Form Builder',
-                            'alt'=>'Form Builder',
-                            'target'=>'modal-synergy_formbuilder',
-                        ];
-                        include("./_modal.php");
-                        ?>
-
+                            $_mdata = [
+                                'imgUrl'=>'/assets/img/portfolio/newlogix/ls-fb-template_builder.png',
+                                'desc'=>'The forms used to track project data can be constructed dynamically in an administration area. This page shows building a form from \'components\' (commonly used sub-forms). The user can drag & drop a component from the list on the right into the center area to add it to a form, which will then be available on the site (or possibly a mobile app) for filling out by contractors and engineers in the field.',
+                                'title'=>'Form Builder',
+                                'alt'=>'Form Builder',
+                                'target'=>'modal-synergy_formbuilder',
+                            ];
+                            include("./_modal.php");
+                            ?>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Apr 2016 - Nov 2018</span></div>
                     </div>
 
-                    <!-- TBD -->
+                    <!-- Axiom Images -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                            <h3 class="mb-0">Senior Web Developer</h3>
+                            <div class="subheading mb-3"><a href="http://www.axiomimages.com/">Axiom Images <i class="fa-solid fa-external-link-alt fa-xs"></i></a></div>
+                            <p>Implemented features such as dynamic playlist, and intelligent search filtering for leading aerial stock footage website. Work also included a complete re-write of the website's admin panel using Laravel MVC Framework.</p>
+                            <?php
+                            $_mdata = [
+                                'imgUrl'=>'/assets/img/portfolio/axiom-images/ai-search-with_playlist.png',
+                                'desc'=>'Search with sophisticated filtering UI (left), results (right), and customizable playlist (bottom).',
+                                'title'=>'Filtered Search Results',
+                                'alt'=>'Filtered Search Results',
+                                'target'=>'modal-axiom_search_results',
+                            ];
+                            include("./_modal.php");
+                            ?>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2014 - 2015</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+
+                    <!-- ODOE -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            <h3 class="mb-0">Lead Web Developer</h3>
+                            <div class="subheading mb-3"><a href="https://www.onedayonearth.org/">One Day on Earth <i class="fa-solid fa-external-link-alt fa-xs"></i></a></div>
+                            <p>One Day on Earth was an annual project founded by a Santa Monica-based filmmaker. Starting on October 10, 2010 (10/10/10), thousands of volunteers worldwide shot footage documenting life on that day. The 'archive' lets viewers browse and watch the videos by location, keywords, and categories. I built the archive site implementing features such as keyword-based search, commenting, and user ratings. I also integrated the site with the Vimeo API to support both video playback, as well as the ability to upload new videos.</p>
+                            <?php
+                            $_mdata = [
+                                'imgUrl'=>'/assets/img/portfolio/odoe/odoe-map.png',
+                                'desc'=>'Map-based UI showing locations where videos were shot on 10/10/2010. \'Cluster\' icons in green show groups of videos, which can be clicked on to zoom into.',
+                                'title'=>'Archive map',
+                                'alt'=>'One Day on Earth Archive Map',
+                                'target'=>'modal-odoe_map',
+                            ];
+                            include("./_modal.php");
+                            $_mdata = [
+                                'imgUrl'=>'/assets/img/portfolio/odoe/odoe-video.png',
+                                'desc'=>'Pop-out sidebar contains video player, along with other information about the work, plus a playlist of related videos at the bottom.',
+                                'title'=>'One Day on Earth Sidebar with Embedded Video Player',
+                                'alt'=>'Sidebar',
+                                'target'=>'modal-odoe_sidebar',
+                            ];
+                            include("./_modal.php");
+                            ?>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2010 - 2013</span></div>
                     </div>
+
                 </div>
             </section>
 
