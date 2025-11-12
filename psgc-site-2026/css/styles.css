@@ -11090,8 +11090,10 @@ p.lead {
   font-size: 1.5rem;
 }
 
-.subheading a .fa-external-link-alt {
-  margin-left: 0.25rem;
+.subheading a svg,
+h3 a svg {
+  margin-left: 0.5rem !important;
+  display: inline-block;
 }
 
 #sideNav {
@@ -11182,6 +11184,10 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+}
+
+section.resume-section .resume-section-content .img-linkedin-references {
+  width: 70%;
 }
 
 @media (min-width: 768px) {

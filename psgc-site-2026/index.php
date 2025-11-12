@@ -30,10 +30,9 @@ $email_address = 'peter@peltronic.com';
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Home</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#references">References</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                 </ul>
             </div>
             <div>
@@ -48,10 +47,9 @@ $email_address = 'peter@peltronic.com';
         <div class="container-fluid p-0">
             <?php include 'sections/about.php'; ?>
             <?php include 'sections/experience.php'; ?>
-            <?php include 'sections/education.php'; ?>
             <?php include 'sections/skills.php'; ?>
-            <?php include 'sections/interests.php'; ?>
-            <?php include 'sections/awards.php'; ?>
+            <?php include 'sections/references.php'; ?>
+            <?php include 'sections/education.php'; ?>
         </div>
 
         <div id="tag-clickme_to_scroll_down">
